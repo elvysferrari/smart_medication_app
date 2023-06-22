@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "813395912100",
+    "project_id": "smart-medication-app",
+    "storage_bucket": "smart-medication-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813395912100:android:8dd8544a4ab28fea56cd31",
+        "android_client_info": {
+          "package_name": "com.ef.smart_medication_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813395912100-a0uqceiqb600lna8v85c5psu3uo8gug3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1cSbij3TPNO2Pd-HR1ASxdc8-i7gG1xY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813395912100-a0uqceiqb600lna8v85c5psu3uo8gug3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

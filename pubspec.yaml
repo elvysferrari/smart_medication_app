@@ -1,0 +1,68 @@
+name: smart_medication_app
+description: Take your medications on time.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.13.1
+  cloud_firestore: ^4.8.0
+  firebase_auth: ^4.6.3
+  mobx: ^2.2.0
+  flutter_mobx: ^2.0.6+5
+  get_it: ^7.6.0
+  dio: ^5.2.1+1
+  intl: ^0.18.1
+  shared_preferences: ^2.1.2
+  flutter_native_splash: ^2.3.1
+  permission_handler: ^10.3.0
+  google_fonts: ^5.1.0
+  table_calendar: ^3.0.9
+  calendar_timeline: ^1.1.2
+  firebase_messaging: ^14.6.3
+
+flutter_native_splash:
+  background_image: assets/images/splash.jpg
+  android: true
+  ios: true
+  web: false
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/icons/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icons/icon.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icons/icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+
+dev_dependencies:
+  mobx_codegen: ^2.3.0
+  build_runner: ^2.4.4
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
